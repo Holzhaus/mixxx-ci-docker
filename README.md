@@ -6,9 +6,10 @@ Docker Image based on Arch Linux.
 
 Used by GitHub Actions to run the pre-commit workflow on the mixxxdj/mixxx repo.
 
-Latest tag [`20210526`](https://hub.docker.com/layers/holzhaus/mixxx-ci/20210526/images/sha256-af57ff7576d943ce6ad0acabd2259c91730d13f2711fe226d91649e48456e920) features the following software:
+Latest tag [`20210923`](https://hub.docker.com/layers/holzhaus/mixxx-ci/20210923/images/sha256-606088f45eaf726117200bc06caea67c5e494754c78c0afcf64633e6b60e00bf) features the following software:
 
-- clang-format 11.1.0
-- Qt 5.15.2+kde+r192
-- Python 3.9.4.
-- git 2.31.1
+- appstream 0.14.5
+- clang-format 12.0.1
+- Qt 5.15.2+kde+r226
+- Python 3.9.7
+- git 2.33.0
