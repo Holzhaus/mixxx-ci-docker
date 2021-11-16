@@ -1,5 +1,5 @@
 FROM archlinux:base-devel
-RUN pacman -Syu --noconfirm \
+RUN pacman -Sy --noconfirm archlinux-keyring && pacman -Su --noconfirm \
     appstream \
     ccache \
     chromaprint \
