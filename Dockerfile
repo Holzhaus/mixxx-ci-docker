@@ -30,6 +30,7 @@ RUN pacman -Sy --noconfirm archlinux-keyring && pacman -Su --noconfirm \
     qt6-base \
     qt6-declarative \
     qt6-imageformats \
+    qt6-shadertools \
     qt6-svg \
     qt6-tools \
     qt6-translations \
