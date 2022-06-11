@@ -1,4 +1,4 @@
-FROM archlinux:base-devel
+FROM archlinux:base-devel-20220529.0.58327
 RUN pacman -Sy --noconfirm archlinux-keyring && pacman -Su --noconfirm \
     appstream \
     ccache \
@@ -20,6 +20,7 @@ RUN pacman -Sy --noconfirm archlinux-keyring && pacman -Su --noconfirm \
     libusb \
     lilv \
     lv2 \
+    microsoft-gsl \
     opusfile \
     portaudio \
     portmidi \
