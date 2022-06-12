@@ -21,6 +21,7 @@ RUN pacman -Sy --noconfirm archlinux-keyring && pacman -Su --noconfirm \
     lilv \
     lv2 \
     microsoft-gsl \
+    openssh \
     opusfile \
     portaudio \
     portmidi \
