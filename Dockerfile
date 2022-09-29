@@ -1,6 +1,7 @@
 FROM archlinux:base-devel-20220529.0.58327
 RUN pacman -Sy --noconfirm archlinux-keyring && pacman -Su --noconfirm \
     appstream \
+    cargo \
     ccache \
     chromaprint \
     clang \
