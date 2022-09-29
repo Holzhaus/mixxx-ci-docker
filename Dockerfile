@@ -1,4 +1,4 @@
-FROM archlinux:base-devel-20220529.0.58327
+FROM archlinux:base-devel-20220925.0.89186
 RUN pacman -Sy --noconfirm archlinux-keyring && pacman -Su --noconfirm \
     appstream \
     cargo \
