@@ -44,5 +44,6 @@ RUN pacman -Sy --noconfirm archlinux-keyring && pacman -Su --noconfirm \
     ttf-opensans \
     ttf-ubuntu-font-family \
     upower \
-    wavpack
+    wavpack \
+    abletonlink
 ENTRYPOINT ["bash"]
