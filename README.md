@@ -6,7 +6,8 @@ Docker Image based on Arch Linux.
 
 Used by GitHub Actions to run the pre-commit workflow on the mixxxdj/mixxx repo.
 
-Latest tag [`20250304`](https://hub.docker.com/layers/holzhaus/mixxx-ci/20250304/images/sha256-f66e22339b46f4ae1b959b653c14a3294d5e52395287a68ba2bd254d357cd08e) features the following software:
+Latest tag [`20250305`](https://hub.docker.com/layers/holzhaus/mixxx-ci/20250305/images/sha256-5a2627bdd63c546524e464bc2a7dd69124c09dfb2101cb85e5dc2d2a5c3598da) features the following software:
+
 
     # pacman -Q appstream clang python git qt6-base rustup
     appstream 1.0.4-1
